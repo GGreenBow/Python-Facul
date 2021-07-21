@@ -1,0 +1,14 @@
+ALGORITMO Ex2
+VAR
+	INTEIRO: Larg, Alt, Total;
+INICIO
+	Imprima("Digite a largura do terreno: ");
+	Leia(Larg);
+	Imprima("Digite a altura do terreno: ");
+	Leia(Alt);
+	
+	Total := Larg*Alt;
+
+	Imprima("A área do terreno é igual a ",Total);
+FIM
+

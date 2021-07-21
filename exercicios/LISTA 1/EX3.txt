@@ -1,0 +1,23 @@
+ALGORITMO Ex3
+VAR
+	INTEIRO: Custo, Distri, Impos,Result;
+INICIO
+	Imprima("Digite o custo de fábrica do carro: ");
+	Leia(Custo);
+	Distri := Custo*32/100;
+	Impos := Custo*41/100;
+	Result := Custo+Distri+Impos;
+
+	Imprima("O custo é igual a ",Result);
+FIM
+
+ALGORITMO Ex3
+VAR
+	INTEIRO: Custo, Result;
+INICIO
+	Imprima("Digite o custo de fábrica do carro: ");
+	Leia(Custo);
+	Result := Custo+(Custo*32/100)+(Custo*41/100);
+
+	Imprima("O custo é igual a ",Result);
+FIM

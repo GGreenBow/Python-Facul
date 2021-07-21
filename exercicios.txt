@@ -1,0 +1,54 @@
+ALGORITMO Exercicio1
+VAR
+	INTEIRO: Num1, Result;
+INICIO
+	Imprima("Digite o primeiro número: ");
+	Leia(num1);
+
+	Result := Num1+2;
+
+	Imprima("O resultado é igual a ",Result);
+FIM
+
+
+
+ALGORITMO Exercicio2
+VAR
+	INTEIRO: Raio, Area;
+INICIO
+	Imprima("Digite o raio da circuferência: ");
+	Leia(Raio);
+
+	Area := 3.13*Raio*Raio;
+
+	Imprima("A área é igual a ",Area);
+FIM
+
+
+
+
+ALGORITMO Exercicio3
+VAR
+	INTEIRO: Num1, Num2, Num3, Num4, Par1, Par2, Par3, Par4, Result;
+INICIO
+	Imprima("Digite o primeiro número: ");
+	Leia(Num1);
+	Imprima("Digite o segundo número: ");
+	Leia(Num2);
+	Imprima("Digite o terceiro número: ");
+	Leia(Num3);
+	Imprima("Digite o quarto número: ");
+	Leia(Num4);
+
+	Par1 := Num1*Num1;
+	Imprima(Par1);
+	Par2 := Num2*Num2;
+	Imprima(Par2);
+	Par3 := Num3*Num3;
+	Imprima(Par3);
+	Par4 := Num4*Num4;
+	Imprima(Par4);
+
+	Result := Par1+Par2+Par3+Par4;
+	Imprima("o resultado é igual a ",Result);
+FIM

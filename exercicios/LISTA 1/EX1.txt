@@ -1,0 +1,15 @@
+ALGORITMO Ex1
+VAR
+	INTEIRO: Ano, Mes, Dia, Total;
+INICIO
+	Imprima("Digite a quantidade de anos vividos: ");
+	Leia(Ano);
+	Imprima("Digite a quantidade de meses vividos: ");
+	Leia(Mes);
+	Imprima("Digite a quantidade de dias vividos: ");
+	Leia(Dia);
+
+	Total := (Ano*365)+(Mes*30)+Dia;
+
+	Imprima("A idade em dias é igual a ",Total);
+FIM
